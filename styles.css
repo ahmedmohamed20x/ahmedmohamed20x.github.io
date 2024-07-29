@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: beige;
+    width: 100%;
+    height: 55px;
+    position: relative;
+}
+
+header h1 {
+    display: inline;
+    margin: 0;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+header div {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: inline-block;
+}
+
+
+header ul li {
+    display: inline-block;
+    margin: 0;
+    background-color: black;
+    height: 100%;
+}
+
+header ul li:hover {
+    background-color: brown;
+}
+
+header ul li a {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+    color: white
+}
+
+#intro {
+    /* box-sizing: border-box; */
+    background-color: bisque;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    box-sizing: ;
+}
+
+#intro h1 {
+    display: inline;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+#intro p {
+    margin: 0;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 400px;
+}
+
+#intro img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+#intro button {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 320px;
+}
+
+#intro button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.section-title {
+    text-align: center;
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+}
+
+#section-work-1 {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+#section-work-2 {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.work-experience{
+    width: 40%;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 90px;
+    border-right: 20px solid orange;
+}
+
+.work-experience:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#section-work-1 .work-experience{
+    background-color: black;
+    color: white;
+}
+#section-work-2 .work-experience{
+    background-color: white;
+    color: black;
+}
+
+.work-experience img{
+    width: 25%;
+    height: 120px;
+    border-top-left-radius: 10px;
+    float: left;
+    margin-right: 20px;
+}
+.work-experience-content{
+    clear: right;
+
+    padding-top:10px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.work-experience .work-experience-content .duration{
+    font-weight: bold;
+}
+
+#skills{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+#skills-title{
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.skillcard{
+    display: inline-block;
+    width: 20%;
+    height: 80px;
+    margin: 40px;
+    margin-left: 100px;
+    position: relative;
+    color:white
+}
+
+.skillcard-title{
+    margin: 0;
+    padding: 10px;
+}
+
+.progress-container{
+    width: 80%;
+    height: 10px;
+    margin: auto;
+    background-color: rgb(193, 193, 193);
+}
+
+.progress-bar{
+    height: 10px;
+    width: 50%;
+    background-color: green;
+}
+
+.progress-percent{
+position: absolute;
+right: 20px;
+top: 5px;
+}
