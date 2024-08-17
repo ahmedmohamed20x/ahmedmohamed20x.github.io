@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+<style>
+    .container{
+        width: 80%;
+        background-color: turquoise;
+        border-radius: 20px;
+        padding: 20px;
+        column-gap: 10px;
+        border-right: 20px solid orange;
+        display: grid;
+        grid-template-areas: 
+        "image heading"
+        "description description"
+        ;
+        grid-template-columns: 200px auto;
+    }
+
+    .container:hover{
+         box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    }
+
+    #image{
+        grid-area: image;
+    }
+
+    #image img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #heading{
+        grid-area: heading;
+    }
+
+    #description{
+        grid-area: description;
+    }
+</style>
+</head>
+<body>
+    <class="container">
+    <div id="image">
+    <img src="about me.jpg">
+    </div>
+    <div id="heading">
+        <h3>About me</h3>
+        <h4>I am Computer Science major and I am trying to figure out if this is for me. I like to read, write, and hang out with my friends.</h4>
+    </div>
+    </div>
+</body>
+</html>
